@@ -15,7 +15,7 @@
 
 
 #####################
-#### QUESTION 1 #####
+#knn regression
 #####################
 rm(list=ls())
 
@@ -78,7 +78,7 @@ print(paste("Test MSE for k = 3 is: ", test.errors, " comparing with the Validat
 
 
 #####################
-#### QUESTION 2 #####
+#knn classification
 #####################
 rm(list=ls())
 
@@ -143,7 +143,7 @@ print(paste("Test set error rate was ", test.error))
 print(paste("Test MSE for k = 11 is: ", test.error, " comparing with the Validate MSE: ", validate.errors[which.min(validate.errors)]))
 
 #####################
-#### QUESTION 3 #####
+#investigation of MSE for first knn regression
 #####################
 rm(list=ls())
 
@@ -205,7 +205,7 @@ legend('topright', legend = c("Validate MSEs & Mean", "Test MSEs & Mean"), lty=c
 
 
 #####################
-#### QUESTION 4 #####
+#knn regression
 #####################
 
 rm(list=ls())

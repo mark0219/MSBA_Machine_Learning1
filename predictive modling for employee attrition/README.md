@@ -1,0 +1,2 @@
+# Overview
+Implemented machine learning algorithms, more specifically, classification models including Lasso Regression, Logistic Regression, Linear Discriminant Analysis, Quadratic Discriminant Analysis, and K-Nearest-Neibours in combination with K-fold cross validation to predict employee attrition. Given the available amount of data (1470 rows), the Type-II error rate was tuned down to 29% from 52%, while the overall correct rate was kept above 80%.
